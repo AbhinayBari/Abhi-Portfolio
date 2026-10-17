@@ -1,5 +1,6 @@
 import { FaArrowRight } from "react-icons/fa"
 
+
 const Contact = () => {
   return (
     <div id="Contact" className="py-20">
@@ -14,7 +15,7 @@ const Contact = () => {
                 <form className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <input className="px-4 py-3 w-full border border-zinc-600 rounded outline-none rounded-xl"
+                            <input className="px-4 py-3 w-full border border-zinc-600 rounded outline-none rounded-xl "
                             placeholder="Enter Name" type="text"></input>
                         </div>
                         <div>

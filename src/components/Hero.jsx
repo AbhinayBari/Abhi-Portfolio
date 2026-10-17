@@ -4,16 +4,16 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-16"
+      className="min-h-screen flex items-center justify-center pt-16 bg-[#180D27] text-white"
     >
-      <div className="max-w-7xl mx-auto px-6 py-20 w-full">
+      <div className="max-w-7xl mx-auto px-6 py-20 w-full Home">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
           {/* Left Content */}
           <div className="text-center md:text-left">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-zinc-800 dark:text-white mb-6">
-              <span className="text-zinc-500">
-                MERN Stack Backend
+              <span>
+                MERN FULL STACK
               </span>
               <br />
               <span className="text-cyan-500">
@@ -21,8 +21,8 @@ const Hero = () => {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl leading-relaxed text-zinc-600 dark:text-zinc-400 mb-8 max-w-2xl">
-              I am a MERN Stack Backend Developer with a passion for
+            <p className="text-lg md:text-xl leading-relaxed text-white mb-8 max-w-2xl">
+              I am a MERN Full Stack Developer with a passion for
               building scalable and efficient web applications. I have
               experience in developing RESTful APIs, working with databases,
               and implementing authentication and authorization mechanisms.
@@ -53,15 +53,17 @@ const Hero = () => {
           </div>
 
           {/* Right Image */}
-          <div className="flex justify-center md:justify-center ">
-            <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden img-shadow">
+          <div className="flex justify-center md:justify-center  electric-ring translate-x-45">
+            <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden img-shadow electric-border">
 
               {/* Profile Image */}
+              <div className="electric-photo ">
               <img
                 src={Abhi}
                 alt="Abhinay Bari"
                 className="w-full h-full object-cover"
               />
+              </div>
             </div>
           </div>
         </div>

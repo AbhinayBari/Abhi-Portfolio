@@ -4,53 +4,80 @@ const Work = () => {
   return (
     <div id="work" className="py-20">
       <div className="max-w-7xl mx-auto px-6 py-4">
+
         <div className="mb-16 text-center">
           <h2 className="text-4xl sm:text-5xl font-bold text-zinc-800 mb-6">
             Featured <span className="text-cyan-500">Projects</span>
           </h2>
 
           <p className="text-xl max-w-3xl mx-auto text-slate-600">
-            Cutting-edge web applications built with the latest technologies.
+            Here are some of my web development projects.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="group rounded overflow-hidden hover:shadow-lg transition cursor-pointer border border-zinc-200 hover:-translate-y-1 duration-300 ease-in-out"
+              className="group rounded-xl overflow-hidden border border-zinc-200 bg-white hover:shadow-xl hover:-translate-y-1 transition duration-300"
             >
-              <div className="relative flex items-center justify-center h-80">
+              <div className="h-56 overflow-hidden bg-gray-100">
                 <img
-                  className="w-full h-full object-cover group-hover:opacity-100"
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                 />
               </div>
 
               <div className="p-6">
-                <h3 className="text-xl font-bold text-slate-700 mb-2">
+                <h3 className="text-xl font-bold text-slate-800 mb-3">
                   {project.title}
                 </h3>
 
-                <p className="text-zinc-600 mb-4">
+                <p className="text-zinc-600 text-sm leading-6 mb-4">
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mt-6">
-                  {project.tech.map((language, index) => (
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tech.filter(Boolean).map((language, techIndex) => (
                     <span
-                      key={index}
-                      className="px-4 py-1 bg-gray-100 text-xs font-semibold rounded-full"
+                      key={techIndex}
+                      className="px-3 py-1 bg-cyan-50 text-cyan-700 text-xs font-semibold rounded-full"
                     >
                       {language}
                     </span>
                   ))}
                 </div>
+
+                <div className="flex flex-wrap gap-3">
+                  {project.liveLink && (
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 bg-cyan-500 text-white rounded-lg text-sm font-semibold hover:bg-cyan-600 transition"
+                    >
+                      Live Demo ↗
+                    </a>
+                  )}
+
+                  {project.githubLink && (
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 bg-zinc-800 text-white rounded-lg text-sm font-semibold hover:bg-zinc-700 transition"
+                    >
+                      GitHub ↗
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}
         </div>
+
       </div>
     </div>
   )

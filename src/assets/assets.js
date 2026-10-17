@@ -45,28 +45,32 @@ export const skillsData = [
 
 export const projectData = [
     {
-        title: 'E-Commarce Website',
-        description: 'Immersive shopping experience with python tailwind and react',
-        image: 'https://img.freepik.com/premium-photo/ecommerce-website-banner-design_1281315-1759.jpg?w=2000',
-        tech: ['React', 'Tailwindcss', 'Node.js', 'express.js', 'MongoDB']
+        title: 'Portfolio',
+        description: 'Immersive My Porfolio Website About Me Skills Section And Porjects',
+        image: 'https://static.vecteezy.com/system/resources/thumbnails/016/208/590/small_2x/personal-portfolio-with-profile-data-resume-or-self-improvement-to-attract-clients-and-employers-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg',
+        tech: ['React', 'Tailwind.Css', 'Node.js', 'express.js', 'MongoDB']
+        
+        
+    },
+    {
+        title: 'MERN Stack Restaurant',
+        description: 'Immpresive Food Order Restaurant Can Use People Morning BreckFast, And Dinner',
+        image: 'https://static.vecteezy.com/system/resources/previews/007/923/422/non_2x/master-chef-logo-design-template-vector.jpg',
+        tech: ['React', 'CSS', 'Node.js', 'MongoDB','Javascript'],
+        liveLink:"https://mern-stack-restaurant.vercel.app/",
     },
     {
         title: 'NoteBook',
-        description: 'A modern furniture e-commerce platform offering customizable home and office furniture .',
-        image: 'https://charatoon.com/photo/3626.png',
-        tech: ['React', 'Tailwindcss', 'Python']
+        description: 'User Can Create Notes And Edit, update, and Delete notes',
+        image: 'https://static.vecteezy.com/system/resources/thumbnails/009/359/021/small_2x/open-book-illustration-semi-realistic-notebook-design-in-navy-blue-background-simple-minimal-and-easy-to-edit-vector.jpg',
+        tech: ['React', 'Tailwindcss', 'Node.js', 'Express.js', 'MongoDB'],
+        liveLink:"https://notebook-app-livid.vercel.app/"
     },
     {
-        title: 'Authentication System',
-        description: 'A real-time collaborative platform for artists and designers to co-create digital art',
-        image: 'https://static.vecteezy.com/system/resources/previews/003/836/933/original/authentication-concept-icon-user-authorization-login-personal-privacy-protection-with-password-cybersecurity-system-idea-thin-line-illustration-isolated-outline-drawing-vector.jpg',
-        tech: ['React', 'Tailwindcss', 'Python']
-    },
-    {
-        title: 'Abmbivista',
-        description: 'A mood-based interior design suggestion tool that uses AI',
-        image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2plY3R8ZW58MHx8MHx8fDA%3D',
-        tech: ['Django', 'Tailwindcss', 'Python', 'Rest']
+        title: 'Coming Soon',
+        description: '',
+        image: 'https://static.vecteezy.com/system/resources/previews/001/826/283/large_2x/progress-loading-bar-buffering-download-upload-and-loading-icon-vector.jpg',
+        tech: ['']
     }
 ]
 

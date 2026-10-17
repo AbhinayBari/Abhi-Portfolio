@@ -35,15 +35,14 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-center">
-                    <div className="rounded overflow-hidden relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden img-shadow">
-                        <img className='w-full h-full object-cover'
+                    <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden img-shadow"></div>
+                        <img className="w-full h-full object-cover"
                         src={assets.Abhi} alt="Profile"/>
                     </div>
                 </div>
             </div>
         </div>
       
-    </div>
   )
 }
 
