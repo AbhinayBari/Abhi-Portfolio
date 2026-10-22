@@ -106,3 +106,8 @@
     width: 260px;
   }
 }
+
+
+.about-image{
+ transform: translateX(-90px);
+}

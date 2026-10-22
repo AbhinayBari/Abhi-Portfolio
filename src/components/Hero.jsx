@@ -1,10 +1,11 @@
 import { FaArrowRight } from "react-icons/fa";
-import Abhi from '../assets/Abhi.jpg'
+import Abhinay from "../assets/Abhinay.png";
+
 const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-16 bg-[#180D27] text-white"
+      className="min-h-screen flex items-center justify-center pt-16 bg-[#05051f] text-white"
     >
       <div className="max-w-7xl mx-auto px-6 py-20 w-full Home">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -53,14 +54,14 @@ const Hero = () => {
           </div>
 
           {/* Right Image */}
-          <div className="flex justify-center md:justify-center  electric-ring translate-x-45">
+          <div className="flex justify-center md:justify-center  electric-ring translate-x-45 animate-bounce">
             <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden img-shadow electric-border">
 
               {/* Profile Image */}
               <div className="electric-photo ">
               <img
-                src={Abhi}
-                alt="Abhinay Bari"
+                src={Abhinay}
+                alt="Abhinay"
                 className="w-full h-full object-cover"
               />
               </div>

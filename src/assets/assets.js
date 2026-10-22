@@ -1,14 +1,12 @@
-import { FaCode, FaDesktop, FaMicrochip, FaMobile, FaReact, FaSchool,} from 'react-icons/fa6'
+import { FaCode, FaDesktop, FaMicrochip, FaMobile, FaReact,  FaSchool } from 'react-icons/fa6'
+import Abhinay from '../assets/Abhinay.png'
 import { FaProjectDiagram } from 'react-icons/fa'
-import Abhi from '../assets/Abhi.jpg'
-
 
 
 
 export const assets = {
-     Abhi
-};
-
+    Abhinay
+}
 
 export const navMenu = ['Home', 'Work', 'Skills', 'About', 'Contact']
 
@@ -17,7 +15,7 @@ export const skillsData = [
     {
         icon: FaMicrochip,
         title: 'Backend',
-        technologies: ['Node.js', 'Express.js','MongoDB','Postman','RestAPI','Authentication','JwtToken']
+        technologies: ['Python', 'Postgres', 'Redis', 'Next.js']
     },
     {
         icon: FaReact,
@@ -27,12 +25,12 @@ export const skillsData = [
     {
         icon: FaDesktop,
         title: 'Web',
-        technologies: ['Nginx', 'Windows', 'Wsgi', 'Server']
+        technologies: ['Nginx', 'Linux', 'Wsgi', 'Server']
     },
     {
         icon: FaCode ,
         title: 'DevOps',
-        technologies: [ 'Git', 'Github', 'Docker', 'Jenkins', 'CI/CD']
+        technologies: ['Linux', 'Git', 'Github', 'Docker', 'Jenkins', 'CI/CD']
     },
     {
         icon: FaMobile,
@@ -46,31 +44,29 @@ export const skillsData = [
 export const projectData = [
     {
         title: 'Portfolio',
-        description: 'Immersive My Porfolio Website About Me Skills Section And Porjects',
-        image: 'https://static.vecteezy.com/system/resources/thumbnails/016/208/590/small_2x/personal-portfolio-with-profile-data-resume-or-self-improvement-to-attract-clients-and-employers-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg',
-        tech: ['React', 'Tailwind.Css', 'Node.js', 'express.js', 'MongoDB']
-        
-        
+        description: 'Immersive Build My Personal Porfolio tailwind and react',
+        image: 'https://images-platform.99static.com/QfA3hy0kI2_mRUqAWb_f70lPSc8=/127x158:1128x1159/500x500/top/smart/99designs-contests-attachments/131/131570/attachment_131570475',
+        tech: ['Html', 'CSS', 'TailWind.CSS', 'React.js'],
+        liveLink:"https://abhi-portfolio-sandy.vercel.app/"
     },
     {
         title: 'MERN Stack Restaurant',
-        description: 'Immpresive Food Order Restaurant Can Use People Morning BreckFast, And Dinner',
-        image: 'https://static.vecteezy.com/system/resources/previews/007/923/422/non_2x/master-chef-logo-design-template-vector.jpg',
-        tech: ['React', 'CSS', 'Node.js', 'MongoDB','Javascript'],
-        liveLink:"https://mern-stack-restaurant.vercel.app/",
+        description: 'A modern Create Restaurant Order Food Website .',
+        image:'https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/8ed8ad70062059.5b96e0430da17.jpg',
+        tech: ['Html', 'CSS', 'JavaScript', 'React.js','Node.Js','MongoDB'],
+        liveLink:"https://mern-stack-restaurant.vercel.app/"
     },
     {
-        title: 'NoteBook',
-        description: 'User Can Create Notes And Edit, update, and Delete notes',
-        image: 'https://static.vecteezy.com/system/resources/thumbnails/009/359/021/small_2x/open-book-illustration-semi-realistic-notebook-design-in-navy-blue-background-simple-minimal-and-easy-to-edit-vector.jpg',
-        tech: ['React', 'Tailwindcss', 'Node.js', 'Express.js', 'MongoDB'],
-        liveLink:"https://notebook-app-livid.vercel.app/"
+        title: 'Collaboration',
+        description: 'A real-time collaborative platform for artists and designers to co-create digital art',
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2plY3R8ZW58MHx8MHx8fDA%3D',
+        tech: ['React', 'Tailwindcss', 'Python']
     },
     {
-        title: 'Coming Soon',
-        description: '',
-        image: 'https://static.vecteezy.com/system/resources/previews/001/826/283/large_2x/progress-loading-bar-buffering-download-upload-and-loading-icon-vector.jpg',
-        tech: ['']
+        title: 'Abmbivista',
+        description: 'A mood-based interior design suggestion tool that uses AI',
+        image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2plY3R8ZW58MHx8MHx8fDA%3D',
+        tech: ['Django', 'Tailwindcss', 'Python', 'Rest']
     }
 ]
 
@@ -78,16 +74,16 @@ export const profileData = [
     {
         icon: FaCode ,
         title: 'Language',
-        technologies : ['HTML','CSS','Javascript', 'React', 'Node.js','MongoDB',]
+        technologies : ['React','Tailwindcss','Node.Js','MongoDB','express.js']
     },
     {
         icon: FaSchool ,
         title: 'Education',
-        technologies : ['Bsc.Computer Science']
+        technologies : ['Bsc.Computer Sicence']
     },
     {
         icon: FaProjectDiagram ,
         title: 'Projects',
-        technologies : ['Built 4 Project']
+        technologies : ['updating...']
     },
 ]
